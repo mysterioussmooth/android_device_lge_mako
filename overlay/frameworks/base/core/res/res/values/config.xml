@@ -83,18 +83,17 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>14</item>   <!-- 0-10 -->
-        <item>28</item>   <!-- 10-50 -->
-        <item>37</item>   <!-- 50-100 -->
-        <item>51</item>   <!-- 100-200 -->
-        <item>71</item>   <!-- 200-400 -->
-        <item>80</item>   <!-- 400-500 -->
-        <item>96</item>   <!-- 500-800 -->
-        <item>108</item>  <!-- 800-1000 -->
-        <item>144</item>  <!-- 1000-1600 -->
-        <item>181</item>  <!-- 1600-3000 -->
-        <item>254</item>  <!-- 3000-10000 -->
-        <item>255</item>  <!-- 10000+ -->
+        <item>10</item>   <!-- 100-200 -->
+        <item>50</item>   <!-- 200-400 -->
+        <item>100</item>   <!-- 400-500 -->
+        <item>200</item>   <!-- 500-800 -->
+        <item>400</item>   <!-- 800-1000 -->
+        <item>500</item>   <!-- 400-500 -->
+        <item>800</item>   <!-- 500-800 -->
+        <item>1000</item>  <!-- 800-1000 -->
+        <item>1600</item>  <!-- 1000-1600 -->
+        <item>3000</item>  <!-- 1600-3000 -->
+        <item>10000</item>  <!-- 3000-10000 -->
     </integer-array>
 
     <!-- Array of output values for button backlight corresponding to the LUX values
@@ -218,12 +217,12 @@
 
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
-        <item>7</item>
+        <item>3</item>
     </integer-array>
 
     <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
-        <item>5</item>
+        <item>2</item>
     </integer-array>
 
     <!-- Boolean indicating if restoring network selection should be skipped -->
