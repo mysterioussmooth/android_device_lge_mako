@@ -40,9 +40,9 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.mako.$(shell date +%m%d%y).$(
 
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=527662 \
+    BUILD_NUMBER=533553 \
     PRODUCT_NAME=occam \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="occam-user 4.2 JOP40C 527662 release-keys" \
-    BUILD_FINGERPRINT="google/occam/mako:4.2/JOP40C/527662:user/release-keys"
+    PRIVATE_BUILD_DESC="occam-user 4.2.1 JOP40D 533553 release-keys" \
+    BUILD_FINGERPRINT="google/occam/mako:4.2.1/JOP40D/533553:user/release-keys"
